@@ -58,7 +58,7 @@ body {
 }
 
 .galeria {
-    ackground-image: linear-gradient(black,rgb(47, 47, 47),black);
+    background-image: linear-gradient(black,rgb(47, 47, 47),black);
     color: white;
 }
 
