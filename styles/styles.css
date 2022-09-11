@@ -240,24 +240,3 @@ footer img {
 .pieDePagina__texto {
     margin: 0 1rem 1rem 0;
 }
-
-@media screen and (max-width: 768px) {
-    .grilla {
-        display: grid;
-        grid-template-areas: 
-        "cabecera"
-        "encabezado"
-        "cuerpo__imagen"
-        "cuerpo__texto"
-        "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, 1fr);
-    }
-    .cabecera,
-    .principal,
-    footer {
-        display: flex;
-        flex-direction: column;
-        width: 450px;
-    }
-}
