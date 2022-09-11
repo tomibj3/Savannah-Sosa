@@ -58,6 +58,7 @@ body {
 }
 
 .galeria {
+    background-image: linear-gradient(black, rgb(43, 43, 43), black);
     color: white;
 }
 
@@ -114,7 +115,6 @@ body {
 
 #cuerpoFormulario {
     margin: 10rem;
-    background-image: linear-gradient(black, rgb(43, 43, 43), black);
 }
 
 #formulario {
