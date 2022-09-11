@@ -54,6 +54,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
     color: white;
+    background-image: linear-gradient(black, rgb(43, 43, 43), black);
 }
 
 .galeria {
@@ -108,10 +109,12 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    background-image: linear-gradient(black, rgb(43, 43, 43), black);
 }
 
 #cuerpoFormulario {
     margin: 10rem;
+    background-image: linear-gradient(black, rgb(43, 43, 43), black);
 }
 
 #formulario {
