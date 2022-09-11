@@ -53,12 +53,10 @@ body {
     "cuerpo__texto cuerpo__imagen";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    background-color: black;
     color: white;
 }
 
 .galeria {
-    background-color: black;
     color: white;
 }
 
@@ -109,7 +107,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     color: white;
 }
 
