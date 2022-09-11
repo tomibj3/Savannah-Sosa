@@ -53,12 +53,10 @@ body {
     "cuerpo__texto cuerpo__imagen";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
 .galeria {
-    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
@@ -109,7 +107,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
