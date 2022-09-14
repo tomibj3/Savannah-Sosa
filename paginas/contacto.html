@@ -34,54 +34,57 @@
     </header>
 
     <main class="principal__formulario">
-        <section class="encabezado">
-            <h1 class="encabezado__titulo">SAVANNAH GARDEN</h1>
-            <h2 class="encabezado__subtitulo">FAST FOOD & BEER</h2>
-        </section>
-        <section id="cuerpoFormulario">
-            <p class="cuerpo__formulario">
-                <p id="formulario">Formulario de contacto</p>
-                <form>
-                    <fieldset>
-                        <label for="nombre">Nombre</label>
-                        <br>
-                        <input id="nombre" type="text" placeholder="Nombre">
-                        <br>
-                        <label for="apellido">Apellido</label>
-                        <br>
-                        <input id="apellido" type="text" placeholder="Apellido">
-                        <br>
-                        <label for="email">Email</label>
-                        <br>
-                        <input id="email" type="text" placeholder="Email">
-                        <br>
-                        <label for="telefono">Telefono</label>
-                        <br>
-                        <input id="telefono" type="text" placeholder="Telefono">
-                        <br>
-                        <label for="pais">Selecciona tu pais</label>
-                        <br>
-                        <select>
-                            <option>Argentina</option>
-                            <option>Chile</option>
-                            <option>Uruguay</option>
-                        </select>
-                        <br>
-                        <label>Comentarios</label>
-                        <br>
-                        <textarea></textarea>
-                        <br>
-                        <label>Acepto los terminos</label>
-                        <input type="checkbox">
-                        <br>
-                        <input type="submit">
-                    </fieldset>
-                        
-
-                </form>>
-            </p>
-        </section>
+        <div class="encabezado">
+            <h1 class="text-bg-dark p-3 text-center">SAVANNAH GARDEN</h1>
+            <h2 class="text-bg-dark p-3 text-center">FAST FOOD & BEER</h2>
+        </div>
+        <form class="row g-3" id="cuerpoFormulario">
+            <div class="col-md-6">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-6">
+                <label for="inputLastName" class="form-label">Apellido</label>
+                <input type="lastName" class="form-control" id="inputLastName">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle, numero">
+            </div>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPhone" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="inputPhone" placeholder="Telefono">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="inputState">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                     Acepto los terminos
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
     </main>
+
 
     <footer>
         <div class="redesSociales">
