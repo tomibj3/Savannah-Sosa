@@ -9,53 +9,48 @@
     <title>Savannah</title>
 </head>
 
-<body class="grilla">
+<body class="p-3 mb-2 bg-dark text-white container-fluid">
     <header class="cabecera">
-        <picture class="cabecera__logo">
-            <img src="./imagenes/logo savannah.JPG" alt="logo savannah" width="150px" height="140px" class="cabecera__logo">
-        </picture>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li class="menu__link">
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li class="menu__link">
-                    <a href="./paginas/fastfood.html">Fast Food</a>
-                </li>
-                <li class="menu__link">
-                    <a href="./paginas/beer.html">Beer</a>
-                </li>
-                <li class="menu__link">
-                    <a href="./paginas/galeria.html">Galeria</a>
-                </li>
-                <li class="menu__link">
-                    <a href="./paginas/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <picture><img src="./imagenes/logo savannah.JPG" class="rounded float-start" alt="Logo Savannah" width="150px" height="150px"></picture>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./paginas/fastfood.html">Fast Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/beer.html">Beer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+              </li>
+          </ul>
     </header>
-
     <main class="principal">
-        <section class="encabezado">
-            <h1 class="encabezado__titulo">SAVANNAH GARDEN</h1>
-            <h2 class="encabezado__subtitulo">FAST FOOD & BEER</h2>
-        </section>
-        <section class="cuerpo">
-            <p class="cuerpo__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quibusdam repellat deserunt officiis atque quis? Repellat iste nobis totam autem ut ex recusandae alias provident voluptas, voluptates eaque explicabo dolorem!</p>
-        </section>
-        <section class="cuerpo__imagen">
-            <picture>
-                <img src="./imagenes/carros.jpg" alt="carros" width="600px" height="400px">
-            </picture>
-        </section>
+        <div class="encabezado">
+            <h1 class="text-bg-dark p-3 text-center">SAVANNAH GARDEN</h1>
+            <h2 class="text-bg-dark p-3 text-center">FAST FOOD & BEER</h2>
+        </div>
+            <p class="cuerpo__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ad exercitationem voluptate. Id numquam quod aspernatur. Porro qui esse, similique quae perspiciatis, inventore explicabo amet ea eius unde ipsum vitae.</p>
+        </div>
+        <div class="cuerpo__imagen">
+            <img src="./imagenes/carros.jpg" class="img-fluid" alt="carros">
+        </div>
     </main>
-
     <footer>
         <div class="redesSociales">
-            <a href="https://www.facebook.com/Savannah-food-beer-100518675308345"><img src="./imagenes/facebook.png" alt="Facebook" width="20px" height="20px"></a>
-            <a href="https://www.instagram.com/savannah.garden/"><img src="./imagenes/instagram.png" alt="Instagram" width="20px" height="20px"></a>
+            <img src="./imagenes/facebook.png" class="rounded mx-auto d-block" alt="Facebook" width="20px" height="20px">
+            <img src="./imagenes/instagram.png" class="rounded mx-auto d-block" alt="Instagram" width="20px" height="20px">
         </div>
-        <p class="pieDePagina__texto">© Savannah Garden - 2022</p>
+        <div class="pieDePagina">
+            <p>© Savannah Garden - 2022</p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
