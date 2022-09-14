@@ -4,87 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Galeria</title>
 </head>
 
 <body class="grilla">
-    <header class="cabecera">
-        <picture class="cabecera__logo">
-            <img src="../imagenes/logo savannah.JPG" alt="logo savannah" width="150px" height="140px" class="cabecera__logo">
-        </picture>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li class="menu__link">
-                    <a href="../index.html">Inicio</a>
+    <body class="p-3 mb-2 bg-dark text-white container-fluid">
+        <header class="cabecera">
+            <div>
+                <picture><img src="../imagenes/logo savannah.JPG" class="rounded float-start" alt="Logo Savannah" width="150px" height="150px"></picture>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
-                <li class="menu__link">
-                    <a href="../paginas/fastfood.html">Fast Food</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="../paginas/fastfood.html">Fast Food</a>
                 </li>
-                <li class="menu__link">
-                    <a href="../paginas/beer.html">Beer</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/beer.html">Beer</a>
                 </li>
-                <li class="menu__link">
-                    <a href="../paginas/galeria.html">Galeria</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
                 </li>
-                <li class="menu__link">
-                    <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+                <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                  </li>
+              </ul>
+        </header>
 
     <main class="galeria">
-        <section class="encabezado">
-            <h1 class="encabezado__titulo">SAVANNAH GARDEN</h1>
-            <h2 class="encabezado__subtitulo">FAST FOOD & BEER</h2>
-        </section>
-        <section class="section__galeria">
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto1.jpeg" alt="foto1">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto2.jpeg" alt="foto2">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto3.jpeg" alt="foto3">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto4.jpeg" alt="foto4">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto5.jpeg" alt="foto5">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto6.jpeg" alt="foto6">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto7.jpeg" alt="foto7">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto8.jpeg" alt="foto8">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto9.jpeg" alt="foto9">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto10.jpeg" alt="foto10">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto11.jpeg" alt="foto11">
-            </picture>
-            <picture class="galeria__img">
-            <img src="../imagenes/imgGaleria/foto12.jpeg" alt="foto12">
-            </picture>
-        </section>
+        <div class="encabezado">
+            <h1 class="text-bg-dark p-3 text-center">SAVANNAH GARDEN</h1>
+            <h2 class="text-bg-dark p-3 text-center">FAST FOOD & BEER</h2>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" d ata-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/imgGaleria/foto1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto5.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto6.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto7.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto8.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto9.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto10.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto11.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/imgGaleria/foto12.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
 
     <footer>
         <div class="redesSociales">
-            <a href="https://www.facebook.com/Savannah-food-beer-100518675308345"><img src="../imagenes/facebook.png" alt="Facebook" width="20px" height="20px"></a>
-            <a href="https://www.instagram.com/savannah.garden/"><img src="../imagenes/instagram.png" alt="Instagram" width="20px" height="20px"></a>
+            <img src="../imagenes/facebook.png" class="rounded mx-auto d-block" alt="Facebook" width="20px" height="20px">
+            <img src="../imagenes/instagram.png" class="rounded mx-auto d-block" alt="Instagram" width="20px" height="20px">
         </div>
-        <p class="pieDePagina__texto">© Savannah Garden - 2022</p>
+        <div class="pieDePagina">
+            <p>© Savannah Garden - 2022</p>
+        </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
