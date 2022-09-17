@@ -8,8 +8,9 @@ html {
     font-size: 62.5%;
 }
 
-body {
+.contenedor {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
 }
 
 .cabecera {
@@ -53,12 +54,12 @@ body {
     "cuerpo__texto cuerpo__imagen";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    background-image: linear-gradient(black,rgb(47, 47, 47),black);
+    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
 .galeria {
-    background-image: linear-gradient(black,rgb(47, 47, 47),black);
+    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
@@ -109,7 +110,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(black,rgb(47, 47, 47),black);
+    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
     color: white;
 }
 
@@ -242,22 +243,47 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
-    .grilla {
-        display: grid;
-        grid-template-areas: 
-        "cabecera"
-        "encabezado"
-        "cuerpo__imagen"
-        "cuerpo__texto"
-        "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1, 1fr);
-    }
     .cabecera,
     .principal,
+    .cuerpo__imagen,
+    .cuerpo__texto,
     footer {
         display: flex;
         flex-direction: column;
-        width: 450px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu,
+    .menu__link {
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu__link a {
+        padding: 0.8rem;
+    }
+
+    .encabezado,
+    .encabezado__titulo,
+    .cuerpo__imagen,
+    .cuerpo__texto {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .cuerpo__imagen img {
+        width: 100%;
+    }
+    
+    footer {
+        display: flex;
+        height: 100%;
+    }
+    
+    .redesSociales,
+    .pieDePagina__texto {
+        margin: 1rem 0 1rem 0;
     }
 }
