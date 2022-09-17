@@ -286,4 +286,47 @@ footer img {
     .pieDePagina__texto {
         margin: 1rem 0 1rem 0;
     }
+
+    .menu,
+    .menu__link {
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu__link a {
+        padding: 0.8rem;
+    }
+
+    .encabezado,
+    .encabezado__titulo,
+    .cuerpo__imagen,
+    .cuerpo__texto {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .cuerpo__imagen img {
+        width: 100%;
+    }
+    
+    footer {
+        display: flex;
+        height: 100%;
+    }
+    
+    .redesSociales,
+    .pieDePagina__texto {
+        margin: 1rem 0 1rem 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .menu,
+    .menu__link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__link a {
+        padding: 0;
+    } 
 }
