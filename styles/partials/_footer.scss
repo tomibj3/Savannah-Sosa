@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    height: 10rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: $colorFondo;
+    color: $colorFunte;
+    font-size: 1.5rem;
+    font-style: italic;
+    .redesSociales {
+        display: flex;
+        justify-content: start;
+        margin: 0 0 1rem 1rem;
+        cursor: pointer;
+        img {
+            border-radius: 10px;
+            margin-right: 1rem;
+        }
+    }
+    .pieDePagina__texto {
+        margin: 0 1rem 1rem 0;
+    }
+}

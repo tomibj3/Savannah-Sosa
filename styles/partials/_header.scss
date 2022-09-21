@@ -1,0 +1,29 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15rem;
+    background-color: $colorFondo;
+    .menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 2rem;
+        font-size: 2rem;
+        .menu__link {
+            display: flex;
+            align-items: center;
+            &:hover {
+                padding: 1.5rem;
+                box-shadow: 0 0 10px rgb(255, 255, 255);
+                border-radius: 10px;
+                transition: all 0.5s ease;
+            }
+            a {
+                color: $colorFunte;
+                text-decoration: none;
+                padding: 3rem;
+             }
+        }
+    }
+}

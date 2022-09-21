@@ -1,0 +1,45 @@
+.principal {
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado"
+    "cuerpo__texto cuerpo__imagen";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    background-image: linear-gradient(to bottom, $colorFondo, rgb(51, 51, 51), $colorFondo);
+    color: $colorFunte;
+    .encabezado {
+        grid-area: encabezado;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .encabezado__titulo {
+            font-size: 3rem;
+        }
+    }
+    .cuerpo {
+        display: flex;
+        align-items: center;
+        .cuerpo__texto {
+            grid-area: cuerpo__texto;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin: 4rem 0 0 2rem;
+        }
+    }
+    .cuerpo__imagen {
+        grid-area: cuerpo__imagen;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 4rem 2rem 0 0;
+        &:hover {
+            opacity: 90%;
+            transition: all 0.5s ease;
+        }
+        img {
+            border-radius: 10px;
+            }
+    }
+}    
