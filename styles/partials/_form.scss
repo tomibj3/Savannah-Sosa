@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, $colorFondo, rgb(51, 51, 51), $colorFondo);
-    color: $colorFunte;
+    color: map-get($color, colorFuente);
     .encabezado {
         grid-area: encabezado;
         display: flex;
@@ -12,14 +12,24 @@
         justify-content: center;
         align-items: center;
         .encabezado__titulo {
-            font-size: 3rem;
+            font-size: map-get($tamanos, fontSizeTitulo);
         }
     }
     #cuerpoFormulario {
         margin: 10rem;
-        #formulario {
-            font-size: 1.5rem;
-            font-style: italic;
+        .cuerpo__formulario {
+            #formulario {
+                font-size: map-get($tamanos, fontSizeCuerpo);
+                font-style: italic;
+            }
+            form {
+                fieldset {
+                    .botonEnviar {
+                        border: none;
+                        background-color: black;
+                    }
+                }
+            }
         }
     }
 }

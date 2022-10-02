@@ -3,13 +3,13 @@
     justify-content: space-between;
     align-items: center;
     height: 15rem;
-    background-color: $colorFondo;
+    background-color: map-get($color, colorFondo);
     .menu {
         display: flex;
         align-items: center;
         list-style: none;
         padding: 2rem;
-        font-size: 2rem;
+        font-size: map-get($tamanos, fontSizeCuerpo);
         .menu__link {
             display: flex;
             align-items: center;
@@ -20,7 +20,7 @@
                 transition: all 0.5s ease;
             }
             a {
-                color: $colorFunte;
+                color: map-get($color, colorFuente);
                 text-decoration: none;
                 padding: 3rem;
              }
