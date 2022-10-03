@@ -5,8 +5,8 @@
     "cuerpo__texto cuerpo__imagen";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    background-image: linear-gradient(to bottom, $colorFondo, rgb(51, 51, 51), $colorFondo);
-    color: map-get($color, colorFuente);
+    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
+    color: map-get($colores, colorFuente);
     .encabezado {
         grid-area: encabezado;
         display: flex;

@@ -1,0 +1,7 @@
+.botonEnviar {
+    @include boton($backColor: green);
+}
+
+.botonCancelar {
+    @include boton($backColor: red );
+}

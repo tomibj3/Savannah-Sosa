@@ -3,8 +3,8 @@ footer {
     height: 10rem;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: map-get($color, colorFondo);
-    color: map-get($color, colorFuente);
+    background-color: map-get($colores, colorFondo);
+    color: map-get($colores, colorFuente);
     font-size: 1.5rem;
     font-style: italic;
     .redesSociales {

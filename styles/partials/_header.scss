@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 15rem;
-    background-color: map-get($color, colorFondo);
+    background-color: map-get($colores, colorFondo);
     .menu {
         display: flex;
         align-items: center;
@@ -20,7 +20,7 @@
                 transition: all 0.5s ease;
             }
             a {
-                color: map-get($color, colorFuente);
+                color: map-get($colores, colorFuente);
                 text-decoration: none;
                 padding: 3rem;
              }
