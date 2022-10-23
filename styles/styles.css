@@ -345,4 +345,11 @@ footer .pieDePagina__texto {
   cursor: pointer;
   box-shadow: 2px 2px white;
   background-color: red;
+}
+
+.cuerpo__beer {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  font-size: large;
 }/*# sourceMappingURL=styles.css.map */
