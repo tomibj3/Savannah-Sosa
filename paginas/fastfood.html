@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="foodtruck, gastronomia, comida, hamburguesas, cerveza, bar">
     <meta name="description" content="Sitio de foodtrucks gastronomicos">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
     <title>Fast Food</title>
 </head>
 
-<body class="grilla">
+<body class="grilla contenedor">
     <header class="cabecera">
         <picture class="cabecera__logo">
             <img src="../imagenes/logo savannah.JPG" alt="logo savannah" width="150px" height="140px" class="cabecera__logo">
@@ -36,18 +37,50 @@
         </nav>
     </header>
 
-    <main class="principal">
+    <main class="principal__fastfood">
         <section class="encabezado">
             <h1 class="encabezado__titulo">SAVANNAH GARDEN</h1>
             <h2 class="encabezado__subtitulo">FAST FOOD & BEER</h2>
         </section>
-        <section class="cuerpo">
-            <p class="cuerpo__texto">Veni a probar las mejores Hamburguesas de la Patagonia, tenemos una amplia variedad para que disfrutes con tu familia y amigos! </p>
-        </section>
-        <section class="cuerpo__imagen">
-            <picture>
-                <img src="../imagenes/fastfood.jpg" alt="carros" width="400px" height="400px">
-            </picture>
+        <section class="cuerpo__fastfood">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card text-bg-dark mb-3">
+                    <img src="https://img.freepik.com/foto-gratis/hamburguesas-ternera-tomate-cebolla-morada-lechuga_2829-10846.jpg?w=740&t=st=1666537265~exp=1666537865~hmac=c022447f824fd7e89f39a12cf0a0dbec4e04cb90b0256baf1ed4b23730454ee1" class="card-img-top" alt="hamburguesa clasica">
+                    <div class="card-body">
+                      <h4 class="card-title">LA CLASICA</h4>
+                      <p class="card-text">Medallon de carne, tomate, lechuga, cebolla morada y salsa de la casa. *Acompañado de porcion de papas fritas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark mb-3">
+                    <img src="https://img.freepik.com/foto-gratis/vista-frontal-hamburguesa-stand_141793-15542.jpg?w=740&t=st=1666537156~exp=1666537756~hmac=b41becfe2a543932ae54a38e248824bf7d68f56f4b4ba2512db9fe2573856158" class="card-img-top" alt="hamburguesa gula">
+                    <div class="card-body">
+                      <h4 class="card-title">GULA</h4>
+                      <p class="card-text">Medallon de carne, pepino, cebolla crispy, panceta y salsa cheddar. *Acompañado de porcion de papas fritas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark mb-3">
+                    <img src="https://img.freepik.com/foto-gratis/delicioso-sandwich-carne-tomates-verdes-bandeja-color-oscuro-lado-derecho-sobre-superficie-negra_179666-42485.jpg?w=740&t=st=1666537213~exp=1666537813~hmac=e260f1904eb1e06a47faa080228497a94c965a2760d70954cee732b07bca12ff" class="card-img-top" alt="hamburguesa ilegal">
+                    <div class="card-body">
+                      <h4 class="card-title">ILEGAL</h4>
+                      <p class="card-text">Doble medallon de carne, tomate, lechuga, pepino, cebolla, queso cheddar y salsa de la casa. *Acompañado de porcion de papas fritas.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-bg-dark mb-3">
+                    <img src="https://img.freepik.com/foto-gratis/hamburguesa-carne-vista-frontal-ensalada-queso-tomates-sobre-fondo-oscuro_140725-89540.jpg?w=740&t=st=1666537441~exp=1666538041~hmac=1cb28943eb05208d0cd48c14514a56b18af296c16228feeafc606ee85c2bda57" class="card-img-top" alt="hamburguesa veggie">
+                    <div class="card-body">
+                      <h4 class="card-title">VEGGIE</h4>
+                      <p class="card-text">Medallon de porotos y garbanzos, tomate, lechuga, queso cheddar y ketchup. *Acompañado de porcion de papas fritas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 

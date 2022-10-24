@@ -1,0 +1,28 @@
+.principal__fastfood {
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado"
+    "cuerpo__fastfood cuerpo__fastfood";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    background-image: linear-gradient(to bottom, black, rgb(51, 51, 51), black);
+    color: map-get($colores, colorFuente);
+    .encabezado {
+        grid-area: encabezado;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .encabezado__titulo {
+            font-size: map-get($tamanos, fontSizeTitulo);
+        }
+    }
+    .cuerpo__fastfood {
+         grid-area: cuerpo__fastfood;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         font-size: large;
+         margin: 2rem;
+     }
+}

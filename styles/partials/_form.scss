@@ -17,6 +17,7 @@
     }
     #cuerpoFormulario {
         margin: 10rem;
+        font-size: large;
         .cuerpo__formulario {
             #formulario {
                 font-size: map-get($tamanos, fontSizeCuerpo);
