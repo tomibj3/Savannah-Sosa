@@ -100,6 +100,21 @@ html {
 .galeria .encabezado .encabezado__titulo {
   font-size: 3rem;
 }
+.galeria .section__galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galeria .section__galeria img {
+  border-radius: 10px;
+  margin: 4rem 0 0 0;
+}
+.galeria .section__galeria img:hover {
+  opacity: 90%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
 
 .principal__formulario {
   display: flex;
